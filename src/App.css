@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+input[type=text], select {
+    padding: 4px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    padding: 4px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#description{
+    vertical-align: top;
+    padding-top: 25px;
+}
+
+.itemDiv{
+    background-color: lightgrey;
+    margin: auto;
+    width: 10%;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 20%;
+    font-family: sans-serif;
+}
+
+.itemDiv div:first-child{
+    font-weight:  bold;
+}
+.itemDiv div:nth-child(even){
+    /*background-color: darkgray;
+    border-radius: 50%;*/
+    border-top: 1px solid #515A5A;
+    border-bottom: 1px solid #515A5A;
+}
